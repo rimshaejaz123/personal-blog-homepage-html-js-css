@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>✨ My Awesome Blog ✨</h1>
+    <p>Dive into Tech, Travel & Food stories that spice up your day!</p>
+  </header>
+
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="🔎 Search posts by title...">
+    <button onclick="filterCategory('All')">All</button>
+    <button onclick="filterCategory('Tech')">💻 Tech</button>
+    <button onclick="filterCategory('Travel')">✈️ Travel</button>
+    <button onclick="filterCategory('Food')">🍔 Food</button>
+  </div>
+
+  <div class="grid" id="postsGrid"></div>
+
+  <div class="pagination" id="pagination"></div>
+
+  <footer>
+    <p>Made with ❤️ by Rimsha</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
